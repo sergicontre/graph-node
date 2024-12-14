@@ -12,7 +12,7 @@ services:
       - ipfs
       - postgres
     extra_hosts:
-      - host.docker.internal:host-gateway
+      - host.docker.internal:172.31.7.157
     environment:
       postgres_host: postgres
       postgres_user: graph-node
